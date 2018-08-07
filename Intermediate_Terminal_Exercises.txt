@@ -1,0 +1,34 @@
+export FIRST_NAME=Silas
+echo $FIRST_NAME
+echo $PATH
+
+It is the location for all command files. The path holds the location to all programs that the terminal might want to execute. The location are separated by colons.
+
+Environment variables are useful because they allow us to access directories dynamically. This allows use to use them in the definitions of other environmental variables. They allow us to do things that depend on who's logged in, where a target directory is located. 
+They also allow us to shorten commands making them easier to type and remember.
+
+You need to add the export command to your shell configuration file.
+
+A process is a program or file that is being executed on a computer.
+ps aux
+
+A PID is a process id.
+
+kill or kill -9 <PID>.
+
+The difference between kill and kill -9 is that kill instructs programs to quit, while kill -9 finds the command to quit the program and them executes that specific command. The difference is that programs may or may not respond to the normal kill command if they have a procedure to do before quitting, while the kill -9 command simply quits the program in regardless of what should be done before quitting.
+
+ -i
+ -B
+ -C
+ -A
+ -w
+
+cd Desktop && find -name “learn”
+find -name “P.*”
+find -name “*.txt”	
+find /views -name “*data*:
+
+grep -c “Elie” instructors.txt
+grep -w “P.*” instructors.txt
+grep -in “z.*” instructors.txt
