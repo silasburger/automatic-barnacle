@@ -1,0 +1,19 @@
+Part 1:
+touch restricted.txt
+chmod 600 restricted.txt
+chmod ugo+rwx restricted.txt
+mkdir secret_files && cd secret_files
+touch first_secret.txt && mkdir classified
+cd classified && touch super_secret.txt
+cd ../..
+chmod -R 770 secret_files
+ln restricted.txt hard_link
+ln -s secret_files/classified classified_link
+ 
+Part 2:
+touch vegetables.txt
+sort vegetables.txt
+wc vegetables.txt
+sort vegetables.txt | uniq > vegetables_sorted.txt
+tail -n 3 vegetables.txt > last_three.txt
+grep Broccoli vegetables.txt | wc -l
