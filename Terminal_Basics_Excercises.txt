@@ -1,0 +1,31 @@
+Part 1:
+mkdir first && cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cd .. && cp -r first second
+rm -rf second
+
+Part 2:
+man displays documentation for commands. It shows different uses of the command and what the flags do. You can scroll using j and k or f and b. To get out use q.
+
+The l flag displays files using long format. The a flag displays files that begin with a dot. Long format shows access, user, group, file size, and time.
+
+You can jump between word by holding alt and pressing the left and right arrows.
+
+You can jump to the end and start of a line using control a and e.
+
+You can delete words using alt delete.
+
+Terminal is a virtual application designed to run programs known as shells. Bash and zsh are shells. iterm is another example of a terminal.
+
+An absolute path is a path that starts from the root for ~ folder.
+
+A relative path is a path that starts at whatever folder you are currently in. A relative path is assumed unless the path starts at ~ or /Users.
+
+A flag is an option for how to run a command. -l is an example of a flag for ls. 
+
+r and f flags in rm allow folders and everything inside the folder to be deleted (r) and doesn’t require confirmation to do so (f). I believe r stands for recursive and f stands for forced.
+
+
