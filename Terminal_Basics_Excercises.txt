@@ -16,7 +16,7 @@ You can jump between word by holding alt and pressing the left and right arrows.
 
 You can jump to the end and start of a line using control a and e.
 
-You can delete words using esc delete or ctrl w	.
+You can delete words using esc delete or ctrl w.
 
 Terminal is a virtual application designed to run programs known as shells. Bash and zsh are shells. iterm is another example of a terminal.
 
