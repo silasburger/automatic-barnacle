@@ -32,3 +32,5 @@ find /views -name “*data*:
 grep -c “Elie” instructors.txt
 grep -w “P.*” instructors.txt
 grep -in “z.*” instructors.txt
+
+ok
