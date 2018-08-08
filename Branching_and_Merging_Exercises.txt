@@ -1,0 +1,12 @@
+Part 1:
+Removes files that are not under version control.
+
+-d remove untracked directories in addition to untracked files. -f forces removal even if the files/sub-directories are apart of another git project.
+
+git checkout -b NAME_OF_BRANCH
+
+A fast-forward merge happens when git can tell that one branch has commits that occurred after or on top of another branch. This allows git to simply bring one branch up to date. A recursive merge happens when github can’t tell which commit happened when on the two branches and needs to use a more complicated algorithm to sort through and make sure everything after the merge is up to date.
+
+git checkout <branch>
+
+git diff shows changes between the working directory and the last commit.
