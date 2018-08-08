@@ -9,4 +9,15 @@ A fast-forward merge happens when git can tell that one branch has commits that 
 
 git checkout <branch>
 
-git diff shows changes between the working directory and the last commit.
+git reset --hard HEAD
+
+git checkout — NAME_OF_FILE
+
+git branch -D NAME_OF_BRANCH
+
+git diff shows changes between the working directory and the last add. In other words showing changes that you have made to tracked files since you last staged them.
+
+git rm --cached NAME_OF_FILE or git rm -r --cached .
+
+Merge conflicts happen when there are commits doing different things to the same files and git can’t decide which to use in the merge.
+
