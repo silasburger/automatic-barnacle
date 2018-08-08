@@ -1,0 +1,10 @@
+Part 1
+mkdir git_practice
+cd git_practice       
+git init
+touch ok.txt another.txt  
+git add .
+git commit -m 'first commit' 
+git remote add origin git@github.com:silasburger/potential-pancake.git
+git pull git@github.com:silasburger/potential-pancake.git       
+git push -u origin master  
